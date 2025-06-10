@@ -10,11 +10,13 @@ The required dataset formats for streamflow input ingestion, and geospatial refe
 
 
 # Usage
-To build these docs locally, you can run the following lines of code to serve these docs in your localhost. Changes will update dynamially in the browser
+To build these docs locally, you can run the following lines of code to serve these docs in your localhost. Changes will update dynamically in the browser
+
 ```
 ## optionally setup an venv
 # uv venv
 # source .venv/bin/activate
+
 uv pip install -r requirements.txt
 mkdocs serve
 ```
